@@ -21,6 +21,16 @@ Rapsberry PI 5 with ubuntu LTS
 sudo apt install build-essential gdb cmake
 ```
 
+### Install pigpio
+```shell
+cd ~
+wget https://github.com/joan2937/pigpio/archive/master.zip
+unzip master.zip
+cd pigpio-master
+make
+sudo make install
+
+```
 
 # Links
 

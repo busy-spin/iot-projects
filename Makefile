@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -Wall -pthread -lpigpio -lrt
 TARGET = myprogram
 SOURCES = main.c
 OBJECTS = $(SOURCES:.c=.o)
@@ -8,10 +8,10 @@ LED_SAMPLE = sensors/led_digital_tube/blink.c
 all: $(TARGET)
 
 led: sensors/led_digital_tube/blink.c
-	$(CC) $(LED_SAMPLE) -o $(TARGET)
+	$(CC) $(CFLAGS) -o $(TARGET) $(LED_SAMPLE)
 
 run-led: led
-	./$(TARGET)
+	sudo ./$(TARGET)
 
 $(TARGET): $(OBJECTS)
 	$(CC) $(OBJECTS) -o $(TARGET)

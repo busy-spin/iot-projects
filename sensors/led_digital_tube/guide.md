@@ -3,3 +3,13 @@
 
 CHIP **TM1637**
 
+Install C library
+
+```shell
+cd ~
+rm master.zip
+wget https://github.com/bitbank2/tm1637/archive/refs/heads/master.zip
+unzip master.zip
+cd tm1637-master
+make
+```
