@@ -29,3 +29,5 @@ sudo apt install build-essential gdb cmake
 [GPIO C interface](https://abyz.me.uk/rpi/pigpio/cif.html)
 
 [CLion setup](https://www.jetbrains.com/help/clion/remote-projects-support.html)
+
+[Raspberry Pi Pin Layout](https://pinout.xyz/pinout/ground)
