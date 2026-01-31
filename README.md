@@ -15,3 +15,5 @@ Larger project are build on top of above showcase. These real life project are u
 # Links
 
 [Keystudio 37 in 1](https://wiki.keyestudio.com/KS0487_Keyestudio_37_in_1_Sensor_Kit_upgrade_v3.0)
+
+[GPIO C interface](https://abyz.me.uk/rpi/pigpio/cif.html)
