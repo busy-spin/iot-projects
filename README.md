@@ -12,8 +12,20 @@ Each sensor or actuator is grouped in to a folder with resources for their data 
 Larger project are build on top of above showcase. These real life project are using 1 or more sensors and actuators. 
 
 
+# Setting up raspberry pi
+
+Rapsberry PI 5 with ubuntu LTS
+
+
+```shell
+sudo apt install build-essential gdb cmake
+```
+
+
 # Links
 
 [Keystudio 37 in 1](https://wiki.keyestudio.com/KS0487_Keyestudio_37_in_1_Sensor_Kit_upgrade_v3.0)
 
 [GPIO C interface](https://abyz.me.uk/rpi/pigpio/cif.html)
+
+[CLion setup](https://www.jetbrains.com/help/clion/remote-projects-support.html)
