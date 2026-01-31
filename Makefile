@@ -8,13 +8,13 @@ LED_SAMPLE = sensors/led_digital_tube/blink.c
 all: $(TARGET)
 
 led: sensors/led_digital_tube/blink.c
-	$(CC) $(LED_SAMPLE)
+	$(CC) $(LED_SAMPLE) -o $(TARGET)
+
+run-led: led
+	./$(TARGET)
 
 $(TARGET): $(OBJECTS)
 	$(CC) $(OBJECTS) -o $(TARGET)
-
-.c.o:
-	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	rm -f $(TARGET) $(OBJECTS)
