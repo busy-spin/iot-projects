@@ -10,3 +10,8 @@ Programs are written in `C` and use raspberry pi GPIO to interact with the senso
 Each sensor or actuator is grouped in to a folder with resources for their data sheet, links to samples from other authors.
 
 Larger project are build on top of above showcase. These real life project are using 1 or more sensors and actuators. 
+
+
+# Links
+
+[Keystudio 37 in 1](https://wiki.keyestudio.com/KS0487_Keyestudio_37_in_1_Sensor_Kit_upgrade_v3.0)
