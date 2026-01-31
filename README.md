@@ -23,13 +23,10 @@ sudo apt install build-essential gdb cmake
 
 ### Install pigpio
 ```shell
-cd ~
-wget https://github.com/joan2937/pigpio/archive/master.zip
-unzip master.zip
-cd pigpio-master
+git clone https://github.com/joan2937/pigpio.git
+cd pigpio
 make
 sudo make install
-
 ```
 
 # Links
