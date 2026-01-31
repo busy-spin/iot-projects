@@ -15,7 +15,7 @@ run-led: led
 	sudo ./$(TARGET)
 
 run-buzzer: $(BUZZER_FILE)
-	$(CC) -o $(TARGET) $(BUZZER_FILE)
+	$(CC) -o $(TARGET) $(BUZZER_FILE) -lwiringPi
 	./$(TARGET)
 
 $(TARGET): $(OBJECTS)
