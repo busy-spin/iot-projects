@@ -5,7 +5,7 @@
 # About
 
 This repository contains code samples and projects for working with sensors and actuators.
-Programs are written in `C` and use raspberry pi GPIO to interact with the sensors and actuators.
+Programs are written in `C` and use raspberry-pi GPIO to interact with the sensors and actuators.
 
 Each sensor or actuator is grouped in to a folder with resources for their data sheet, links to samples from other authors.
 
